@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* START 컨텐츠 영역*/
+#sub_contents_wrap .content h2 {float: left; font-size: 24px; color: #333; letter-spacing: -0.4px; line-height: 32px; margin-bottom: 64px;}
+#sub_contents_wrap .content h2 strong {font-weight: bold;}
+#sub_contents_wrap .content h2 strong span {color: #e03236;}
+#sub_contents_wrap .content > p {float: right; margin-top: 8px;}
+#sub_contents_wrap .content > div {clear: both;}
+#sub_contents_wrap .content > div > p:first-child {padding-bottom: 58px; margin-bottom: 26px; background: #fff url(../images/sub/bg_content_line.gif) 0 bottom no-repeat;}
+#sub_contents_wrap .content > div .text {padding-bottom: 30px; margin-bottom: 78px; background: #fff url(../images/sub/bg_content_line.gif) 0 bottom no-repeat;}
+#sub_contents_wrap .content > div .text p {font-size: 14px; font-weight: bold; line-height: 26px; letter-spacing: -0.4px; color: #555; margin-top: 20px;}
+#sub_contents_wrap .content > div .text p:first-child {margin-top: 0;}
+
+#sub_contents_wrap .content_2 > p a {width: 156px;}
+/* END 컨텐츠 영역*/
