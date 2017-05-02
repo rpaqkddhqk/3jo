@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://lkh07816.dothome.co.kr/common/css/reset.css);
+
+body, input, textarea, select {font: 12px 'Nanum Gothic', 'Malgun Gothic', '맑은 고딕', sans-serif; color: #666;}
+body {padding-top: 138px;}
+a {color: #666;}
+table {width: 100%;}
+
+
+/* START 헤더영역 */
+#header_wrap {position: absolute; top: 0; left: 0; z-index: 1; width: 100%;}
+#header {height: 147px; overflow:hidden; background: url(../images/common/bg_header.png) 0 0 repeat-x; position: relative;}
+/*#header {height: 425px; border-bottom: 3px solid #e03236; background: #fff url(../images/common/bg_header.gif) 0 0 repeat-x;}*/
+#header .header_top {position: relative; width: 1000px; height: 88px; margin: 0 auto;}
+#header h1 {padding: 15px 0 0 4px;}
+
+#util_menu {position: absolute; top: 15px; right: 1px; width: 275px;}
+#util_menu ul {float: left;}
+#util_menu ul li {float: left; padding-left: 8px; margin-left: 9px; height: 27px; line-height: 27px; background: url(../images/common/bar_util_menu.gif) 0 50% no-repeat;}
+#util_menu ul li:first-child {padding-left: 0; margin-left: 0; background: none;}
+#util_menu a {color: #888;}
+#util_menu p {float: right; margin-left: 11px;}
+
+#side_link {position: absolute; top: 58px; right: 3px;}
+#side_link li {float: left; padding-left: 17px; margin-left: 14px; background: url(../images/common/bg_side_url.gif) 0 50% no-repeat;}
+#side_link li:first-child {margin-left: 0;}
+#side_link li a {font-size: 14px; font-weight: bold;}
+#side_link li a:hover, #side_link li a:focus {color: #000;}
+
+#gnb {width: 1000px; margin: 0 auto; padding-top: 15px;}
+#gnb > ul {margin-left: 29px; float: left;}
+#gnb > ul > li {float: left; margin-left: 120px; position: relative;}
+#gnb > ul > li:first-child {margin-left: 0;}
+#gnb > ul > li a {font-size: 19px; color: #fff;}
+#gnb > ul + p {float: right; margin-right: 10px;}
+#gnb > ul + p a {text-indent: -9999px; display: block; width: 24px; height: 18px; background: url(../images/common/btn_menu_all_bg.png) 0 0 no-repeat;}
+
+#gnb > ul ul {
+    width: 119px; height: 271px; padding: 29px 20px 0; margin: 32px 0 0 -18px;
+	position: absolute; top: 0; left: 0; white-space: nowrap;
+}
+#gnb > ul ul a {font-size: 14px; color: #333; line-height: 28px;}
+#gnb > ul ul a:hover, #gnb > ul ul a:focus {color: #e03236; font-weight: bold; text-decoration: underline;}
+/* END 헤더영역 */
+
+/* START 푸터영역 */
+#footer_wrap {border-top: 1px solid #dfdfdf; position: relative;}
+#footer .group_link {width: 1000px; height: 57px; line-height: 57px; margin: 0 auto; position: relative;}
+#footer .group_link li {float: left; margin: 18px 0 0 48px; position: relative;}
+#footer .group_link li:first-child {margin-left: 0;}
+#footer .group_link li a {display: block; width: 32px; height: 23px; background: url(../images/common/bg_shortcut.gif) 5px 0 no-repeat; text-indent: -9999px;}
+#footer .group_link li a:hover, #footer .group_link li a:focus {background-image: url(../images/common/bg_shortcut_on.gif);}
+#footer .group_link li + li a {background-position: -73px 0;}
+#footer .group_link li + li + li a {background-position: -154px 0;}
+#footer .group_link li + li + li + li a {background-position: -237px 0;}
+#footer .group_link li + li + li + li + li a {background-position: -317px 0;}
+#footer .group_link li + li + li + li + li + li a {background-position: -399px 0;}
+#footer .group_link li + li + li + li + li + li + li a {background-position: -481px 0;}
+#footer .group_link li + li + li + li + li + li + li + li a {background-position: -563px 0;}
+#footer .group_link li + li + li + li + li + li + li + li + li a {background-position: -643px 0;}
+#footer .group_link li + li + li + li + li + li + li + li + li + li a {background-position: -726px 0;}
+#footer .group_link li + li + li + li + li + li + li + li + li + li + li a {background-position: -808px 0;}
+#footer .group_link li + li + li + li + li + li + li + li + li + li + li + li a {background-position: -889px 0;}
+#footer .group_link li + li + li + li + li + li + li + li + li + li + li + li + li a {background-position: -968px 0;}
+
+#footer > .footer_bottom {background-color: #5e5e5e;}
+#footer > .footer_bottom > div {width: 1000px; height: 160px; margin: 0 auto;}
+#footer > .footer_bottom > div > h4 {float: left; margin-top: 46px;}
+#footer > .footer_bottom > div > div {float: left; color: #fff; margin: 45px 0 0 50px;}
+#footer > .footer_bottom > div > div ul {overflow: hidden; margin-bottom: 20px;}
+#footer > .footer_bottom > div > div ul li {float: left; padding-left: 12px; margin-left: 13px; background: url(../images/common/bar_footer_menu.gif) 0 center no-repeat;}
+#footer > .footer_bottom > div > div ul li:first-child {padding-left: 0; margin-left: 0; background: none;}
+#footer > .footer_bottom > div > div ul li a {font-size: 14px; color: #fff; font-weight: bold;}
+#footer > .footer_bottom > div > div ul li a:hover, #footer > .footer_bottom > div > div ul li a:focus  {text-decoration: underline;}
+#footer > .footer_bottom > div > div ul + p {margin-bottom: 10px;}
+#footer > .footer_bottom > div > div ul + p span {margin-left: 11px;}
+#footer > .footer_bottom > div > div .copyright {font-size: 11px; color: #bababa;}
+#footer > .footer_bottom > div > .group_link_list {float: right; margin: 34px 0 0 50px;}
+#footer > .footer_bottom > div > .group_link_list a {font-size: 13px; color: #fff; display: block; width: 168px; height: 34px; line-height: 34px; padding: 0 15px; border: 1px solid #888; background: url(../images/common/bg_group_company.gif) 173px center no-repeat;}
+
+#footer_wrap .move_top {position: absolute; top: -55px; right: 30px;}
+/* END 푸터영역 */
