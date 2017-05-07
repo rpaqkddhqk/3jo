@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* START 컨텐츠 영역*/
+#sub_contents_wrap .content .content_bg{height: 260px;background: url(../images/sub/art/art_1.jpg) 0 0 no-repeat;position: relative;}
+#sub_contents_wrap .content .content_bg h2{font-size: 24px;position: absolute;bottom: 0;right: 0;}
+#sub_contents_wrap .content .content_bg h2 strong{font-weight: bold;}
+#sub_contents_wrap .content .content_bg h2 strong span {color: #e03236;}
+/* END 컨텐츠 영역*/
