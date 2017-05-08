@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* START 컨텐츠 영역*/
+#sub_contents_wrap table{width:764px}
+#sub_contents_wrap table thead{height: 46px; border-top:2px solid #333; border-bottom:1px solid #333;}
+#sub_contents_wrap table th, table td{height: 29px; border-bottom: 1px solid #e3e3e3; }
+
+
+
+
+/* table { margin: 10px 0 30px 0; width: 590px; background: url(../images/board/bg_board_title.gif) left top no-repeat; }
+table thead { color: #fff; height: 29px; }
+table thead:first-child { text-align: right; }
+table th, table td { border-bottom: 1px solid #e8e8e8; height: 29px; }
+table td span { color: #fd5300; font-weight: bold; padding-left: 10px; }
+table .date { text-align: center; font-size: 11px; }
+table .no, table .hit { font-size: 11px; text-align: right; padding-right: 12px; }
+
+.btn { text-align: right; }
+
+form { background-color: #f6f6ee; padding-top: 20px; text-align: center; }
+form select { height: 19px; line-height: 19px; }
+form #sch_qna { width: 216px; height: 17px; line-height: 17px; padding-left: 0 4px; border: 1px solid #b4b4b4; } */
+
+/* END 컨텐츠 영역*
