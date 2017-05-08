@@ -9,7 +9,7 @@ table {width: 100%;}
 
 
 /* START 헤더영역 */
-#header_wrap {position: absolute; top: 0; left: 0; z-index: 1; width: 100%;}
+#header_wrap {position: absolute; top: 0; left: 0; z-index: 1; width: 100%; min-width: 1000px;}
 #header {height: 147px; overflow:hidden; background: url(../images/common/bg_header.png) 0 0 repeat-x; position: relative;}
 /*#header {height: 425px; border-bottom: 3px solid #e03236; background: #fff url(../images/common/bg_header.gif) 0 0 repeat-x;}*/
 #header .header_top {position: relative; width: 1000px; height: 88px; margin: 0 auto;}
