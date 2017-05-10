@@ -1,11 +1,26 @@
 @charset "utf-8";
 
-/* START 컨텐츠 영역*/
-#sub_contents_wrap .content h2 {background: url(../images/sub/bg_content_line.gif) 0 bottom no-repeat; padding-bottom: 25px;text-align: center; font-size: 24px; color: #333; letter-spacing: -0.4px; line-height: 35px; margin-bottom: 18px;}
-#sub_contents_wrap .content h2 strong {font-weight: bold;}
-#sub_contents_wrap .content h3 {font-size: 18px; color: #000; font-weight: bold; letter-spacing: -0.4px; margin: 55px 0 20px 0;}
-#sub_contents_wrap .content p {font-size: 14px; color: #333; letter-spacing: -0.4px; line-height: 26px; text-align: justify;}
-#sub_contents_wrap .content h2 + p{float: left; margin: 20px 20px 0 0;}
-#sub_contents_wrap .content .con_img{padding-bottom: 280px; background: url(../images/sub/introduction_2.jpg) 0 bottom no-repeat;}
-#sub_contents_wrap .content .con_img p{clear: both; width: 500px; padding-top: 50px; text-align: justify;}
-#sub_contents_wrap .content .con_img + p{text-align: justify; padding-top: 30px;}
+/* START 재단소개*/
+#sub_contents_wrap .content_intro h2 {background: url(../images/sub/bg_content_line.gif) 0 bottom no-repeat; padding-bottom: 25px;text-align: center; font-size: 24px; color: #333; letter-spacing: -0.4px; line-height: 35px; margin-bottom: 18px;}
+#sub_contents_wrap .content_intro h2 strong {font-weight: bold;}
+#sub_contents_wrap .content_intro h3 {font-size: 18px; color: #000; font-weight: bold; letter-spacing: -0.4px; margin: 55px 0 20px 0;}
+#sub_contents_wrap .content_intro p {font-size: 14px; color: #333; letter-spacing: -0.4px; line-height: 26px; text-align: justify;}
+#sub_contents_wrap .content_intro h2 + p{float: left; margin: 20px 20px 0 0;}
+#sub_contents_wrap .content_intro .con_img{padding-bottom: 280px; background: url(../images/sub/introduction_2.jpg) 0 bottom no-repeat;}
+#sub_contents_wrap .content_intro .con_img p{clear: both; width: 500px; padding-top: 50px; text-align: justify;}
+#sub_contents_wrap .content_intro .con_img + p{text-align: justify; padding-top: 30px;}
+/*END  재단소개*/
+
+/* START 이사장 인사말*/
+#sub_contents_wrap .content_greeting{width:764px; position:relative;} 
+#sub_contents_wrap .content_greeting strong{font-weight: bold;}
+#sub_contents_wrap .content_greeting p{float:left; margin-right: 35px;}
+#sub_contents_wrap .content_greeting h2 {font-size: 24px; line-height: 35px; color: #333; letter-spacing: -0.4px; margin-bottom: 25px; padding-top:10px;}
+#sub_contents_wrap .content_greeting h2 span {font-size: 24px; color: #e03236; font-weight: bold;}
+#sub_contents_wrap .content_greeting h2 + p {width:400px; font-size: 14px; color: #333; letter-spacing: -0.4px; line-height: 26px; text-align: justify;}
+#sub_contents_wrap .content_greeting h2 + p + p{clear:both; font-size: 14px; color: #333; letter-spacing: -0.4px; line-height: 26px; text-align: justify;}
+#sub_contents_wrap .content_greeting h2 + p + p + p{font-size: 14px; color: #333; letter-spacing: -0.4px; line-height: 26px; text-align: justify; margin-top: 20px;}
+#sub_contents_wrap .content_greeting h2 + p + p + p+p{font-size:14px; position:absolute; left:450px; top:700px; width:400px;height:90px;  padding-top:50px; background:url(../images/sub/greeting_2.gif) 150px 10px no-repeat;}
+#sub_contents_wrap .content_greeting p strong{font-weight: bold; color:#000; line-height:26px;}
+/*END  이사장 인사말*/
+
