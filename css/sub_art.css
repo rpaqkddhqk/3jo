@@ -32,4 +32,10 @@
 #sub_contents_wrap .content .content_art_4 p{line-height: 26px; font-size: 14px; color: #555;text-align: justify;}
 #sub_contents_wrap .content .content_art_4 p strong{font-weight: bold;font-size: 16px;}
 
+#sub_contents_wrap .content .content_bg4  h2{font-size: 24px;text-align: center; padding-bottom: 23px;}
+#sub_contents_wrap .content .content_bg4  h2 strong{font-weight: bold;}
+#sub_contents_wrap .content .content_bg4  h2 strong span {color: #e03236;}
+#sub_contents_wrap .content .content_art_5 {height: 547px;background: url(../images/sub/art/education_1.jpg) 0 0 no-repeat;}
+#sub_contents_wrap .content .content_art_5 p{line-height: 26px; font-size: 14px;color: #fff;padding: 35px 20px 0 15px;}
+#sub_contents_wrap .content .content_art_5 p:first-child{padding-top: 28px;}
 /* END 컨텐츠 영역*/
