@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* START 컨텐츠 영역*/
+/* START 컨텐츠 영역 */
 #sub_contents_wrap .content .content_bg{height: 260px;background: url(../images/sub/art/art_1.jpg) 0 0 no-repeat;position: relative;margin-bottom:53px;}
 #sub_contents_wrap .content .content_bg h2{font-size: 24px;position: absolute;bottom: 19px;right: 23px;}
 #sub_contents_wrap .content .content_bg h2 strong{font-weight: bold;}
@@ -11,7 +11,9 @@
 #sub_contents_wrap .content .content_art_2 p {float: right;}
 #sub_contents_wrap .content .content_art_2 p + p {margin-right:33px; width:350px; margin-top:5px; line-height:26px; font-size:14px;color: #555;text-align:justify;}
 #sub_contents_wrap .content .content_art_2 p + p strong{font-weight: bold;font-size: 16px;}
+/* // 미술작가지원 컨텐츠 */
 
+/* 신진작가발굴지원 컨텐츠 */
 #sub_contents_wrap .content .content_bg2 {height:428px; margin-bottom: 30px; background: url(../images/sub/art/bg_artist.jpg) 0 0 no-repeat;position: relative;}
 #sub_contents_wrap .content .content_bg2 img{float: left;padding: 143px 0 0 39px;}
 #sub_contents_wrap .content .content_bg2 img:first-child{padding: 143px 0 0 21px ;}
@@ -23,7 +25,9 @@
 #sub_contents_wrap .content .content_art_3 h2 strong span {color: #e03236;}
 #sub_contents_wrap .content .content_art_3 p{line-height: 26px; font-size: 14px; color: #555;}
 #sub_contents_wrap .content .content_art_3 p strong{font-weight: bold;font-size: 16px;}
+/* //신진작가발굴지원 컨텐츠 */
 
+/* 전시 컨텐츠 */
 #sub_contents_wrap .content .content_bg3 {height: 462px;background: url(../images/sub/art/display_1.jpg) center center no-repeat;position: relative;margin-bottom: 22px;}
 #sub_contents_wrap .content .content_bg3  h2{font-size: 24px;position: absolute;bottom: 40px;right: 160px;}
 #sub_contents_wrap .content .content_bg3  h2 strong{font-weight: bold;}
@@ -31,11 +35,43 @@
 #sub_contents_wrap .content .content_art_4{padding-left: 40px;width: 553px;}
 #sub_contents_wrap .content .content_art_4 p{line-height: 26px; font-size: 14px; color: #555;text-align: justify;}
 #sub_contents_wrap .content .content_art_4 p strong{font-weight: bold;font-size: 16px;}
+/* //전시 컨텐츠 */
 
-#sub_contents_wrap .content .content_bg4  h2{font-size: 24px;text-align: center; padding-bottom: 23px;}
-#sub_contents_wrap .content .content_bg4  h2 strong{font-weight: bold;}
-#sub_contents_wrap .content .content_bg4  h2 strong span {color: #e03236;}
-#sub_contents_wrap .content .content_art_5 {height: 547px;background: url(../images/sub/art/education_1.jpg) 0 0 no-repeat;}
-#sub_contents_wrap .content .content_art_5 p{letter-spacing: 0.4; line-height: 26px; font-size: 14px;color: #fff;padding: 15px 20px 0 25px;}
-#sub_contents_wrap .content .content_art_5 p:first-child{padding-top: 25px;}
+/* 문화예술교육강좌 컨텐츠 */
+#sub_contents_wrap .content .content_art5{float: left; width: 319px;}
+#sub_contents_wrap .content .content_art5  h2{width: 298px;font-size: 24px;margin-bottom: 34px;line-height: 34px;}
+#sub_contents_wrap .content .content_art5  h2 strong{font-weight: bold;}
+#sub_contents_wrap .content .content_art5  h2 strong span {color: #e03236;}
+#sub_contents_wrap .content .content_art5 h2 + p{font-size: 14px; margin-bottom: 40px;line-height: 26px;}
+
+#sub_contents_wrap .content .content_art6{float: right; width: 419px;}
+#sub_contents_wrap .content .content_art6 p:first-child{margin-bottom: 20px;}
+#sub_contents_wrap .content .content_art6 .text_1{font-size: 14px;line-height: 26px;margin-bottom: 42px;}
+
+
+#sub_contents_wrap .content .content_art6_1 h2{float: left;width: 143px;font-size: 24px;margin-top: 32px;line-height: 34px;}
+#sub_contents_wrap .content .content_art6_1 h2 strong{font-weight: bold;}
+#sub_contents_wrap .content .content_art6_1 h2 strong span {color: #e03236;}
+#sub_contents_wrap .content .content_art6_1 p{float: left; width: 261px;margin-right: 15px;}
+
+
+#sub_contents_wrap .content .content_art7{clear:both;}
+#sub_contents_wrap .content .content_art7 p{font-size: 14px; line-height: 26px;}
+
+
+
+/* //문화예술교육강좌 */
+
+/*소장품 수집 및 보존*/
+
+#sub_contents_wrap .content .content_art8 h2 {margin-left: 240px; width: 302px;text-align: center; padding: 10px 0; font-size: 24px;border-top: 5px solid #e03236; border-bottom: 1px solid #808080;margin-bottom: 50px;}
+#sub_contents_wrap .content .content_art8 h2 strong {font-weight: bold;}
+#sub_contents_wrap .content .content_art8 h2 strong span {color: #e03236;}
+#sub_contents_wrap .content .content_art8 h2 + p + p{padding: 23px 0 0 0;font-size: 14px;text-align: center;}
+#sub_contents_wrap .content .content_art8 h2 + p + p + p{padding: 50px 0 37px 0;margin-bottom: 50px;font-size: 14px;line-height: 26px;border-bottom: 1px solid #808080;}
+
+#sub_contents_wrap .content .content_art9 h2 {margin-left: 240px; width: 302px; text-align: center; padding: 10px 0; font-size: 24px;border-top: 5px solid #e03236; border-bottom: 1px solid #808080;margin-bottom: 50px;}
+#sub_contents_wrap .content .content_art9 h2 strong {font-weight: bold;}
+#sub_contents_wrap .content .content_art9 h2 strong span {color: #e03236;}
+#sub_contents_wrap .content .content_art9 h2 + p + p{padding: 50px 0 37px 0;margin-bottom: 50px;font-size: 14px;line-height: 26px;border-bottom: 1px solid #808080;}
 /* END 컨텐츠 영역*/
