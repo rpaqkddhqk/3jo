@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* START 컨텐츠 영역*/
-#sub_contents_wrap .content h2 {float: left; font-size: 24px; color: #333; letter-spacing: -0.4px; line-height: 32px;}
+#sub_contents_wrap .content h2 {font-size: 24px; color: #333; letter-spacing: -0.4px; line-height: 32px;}
 #sub_contents_wrap .content h2 strong {font-weight: bold;}
 #sub_contents_wrap .content h2 strong span {color: #e03236;}
 
@@ -19,8 +19,8 @@
 #sub_contents_wrap.genius .content_1 .btn_wrap a:first-child {margin-left: 0;}
 
 #sub_contents_wrap.genius .content_2 > .description {margin-bottom: 50px;}
-#sub_contents_wrap.genius .content_2 > .description > p {float: right;}
 #sub_contents_wrap.genius .content_2 > .description > div {float: left; width: 346px; font-size: 14px; line-height: 26px; letter-spacing: -1px; color: #555;}
+#sub_contents_wrap.genius .content_2 > .description > p {float: right;}
 #sub_contents_wrap.genius .content_2 > .concurs_record {padding-top: 36px; width: 500px; margin: 0 auto; background: url(../images/sub/bg_content_line_2.gif) center top no-repeat;}
 #sub_contents_wrap.genius .content_2 > .concurs_record > p {text-align: center; font-size: 20px; color: #e03236; font-weight: bold; margin-bottom: 34px;}
 #sub_contents_wrap.genius .content_2 > .concurs_record ul {padding-bottom: 40px; font-size: 14px; line-height: 26px; color: #555; font-weight: bold;}
@@ -39,8 +39,42 @@
 /* END 음악영재발굴/지원 */
 
 
+/* START 금호 연주자 아카이브 */
+.archive .search_option {padding-bottom: 10px; border-bottom: 2px solid #333; margin-bottom: 25px;}
+.archive .search_option .type_wrap {float: left;}
+.archive .search_option .type_wrap a {display: inline-block; width: 83px; height: 37px; border: 1px solid #e4e4e4; margin-left: 6px; line-height: 37px; text-align: center; font-size: 12.5px;}
+.archive .search_option .type_wrap a:first-child {margin-left: 0;}
+.archive .search_option .type_wrap a:hover, .archive .search_option .type_wrap a:focus {background-color: #2a2a30; border-color: #2a2a30; color: #fff;}
+.archive .search_option .form_wrap {float: right;}
+.archive .search_option .form_wrap select {width: 110px; height: 39px; padding-left: 10px; border: 1px solid #e4e4e4; margin-left: 6px; line-height: 37px;}
+.archive .search_option .form_wrap select:first-child {margin-left: 0;}
+.archive .search_option .form_wrap input[type="text"] {width: 110px; height: 37px; padding-left: 10px; border: 1px solid #e4e4e4; margin-left: 6px; line-height: 37px;}
+.archive .search_option .form_wrap input[type="image"] {margin-left: 6px;}
+
+.archive .archive_list .title_year {font-size: 28px; text-align: center; font-weight: bold; margin-bottom: 35px;}
+.archive .archive_detail_wrap {margin-bottom: 100px;}
+.archive .archive_detail {overflow: hidden; margin-top: 20px;}
+.archive .archive_detail:first-child {margin-top: 0;}
+.archive .archive_detail .profile {float: left;}
+.archive .archive_detail .profile_desc {float: right; width: 500px;}
+.archive .archive_detail .profile_desc .name {font-size: 20px; text-align: center; font-weight: bold;}
+.archive .archive_detail .profile_desc > div {margin-top: 17px; overflow: hidden;}
+.archive .archive_detail .profile_desc > div p {float: left; height: 45px; line-height: 45px;}
+.archive .archive_detail .profile_desc > div p:first-child {width: 118px; margin-right: 26px; font-size: 18px; font-weight: bold;}
+.archive .archive_detail .profile_desc > div p select {width: 354px; height: 43px; padding-left: 22px; border: 1px solid #e4e4e4; font-size: 14px;}
+.archive .archive_detail .profile_desc > .p_1 {margin-top: 20px;}
+
+.archive .paging {}
+.archive .paging ul {overflow: hidden; text-align: center;}
+.archive .paging li {display: inline-block; border: 1px solid #ddd;}
+.archive .paging li strong, .archive .paging li a {display: block; width: 36px; height: 36px; line-height: 36px; text-align: center; font-weight: bold;}
+.archive .paging li strong, .archive .paging li .page_num:hover, .archive .paging li .page_num:focus {background-color: #2a2a30; color: #fff;}
+/* END 금호 연주자 아카이브 */
+
+
+
 /* START 클래식공연 지원 */
-#sub_contents_wrap.classic .content h2 {margin-bottom: 64px;}
+#sub_contents_wrap.classic .content h2 {float: left; margin-bottom: 64px;}
 #sub_contents_wrap.classic .content > .btn_wrap {float: right; margin-top: 8px;}
 #sub_contents_wrap.classic .content > div {clear: both;}
 #sub_contents_wrap.classic .content > div > p:first-child {padding-bottom: 58px; margin-bottom: 26px; background: #fff url(../images/sub/bg_content_line.gif) 0 bottom no-repeat;}
