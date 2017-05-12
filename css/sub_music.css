@@ -87,5 +87,16 @@
 #sub_contents_wrap.classic .content_2 > p a {width: 156px;}
 /* END 클래식공연 지원 */
 
+/* START 공연장 운영 */
+.concert .content > div {padding-bottom: 43px; margin-bottom: 60px; background: url(../images/sub/bg_content_line.gif) 0 bottom no-repeat;}
+.concert .content h2 {margin-bottom: 31px;}
+.concert .content .hall_img {overflow: hidden; margin-bottom: 14px;}
+.concert .content .hall_img p {float: left; width: 245px; height: 133px; margin-left: 14px;}
+.concert .content .hall_img p:first-child {margin-left: 0;}
+.concert .content .hall_desc {font-size: 14px; font-weight: bold; line-height: 26px;}
+.concert .content .hall_desc p {margin-top: 28px;}
+.concert .content .hall_desc p:first-child {margin-top: 0;}
+.concert .content .hall_desc p span {color: #000; font-size: 15px;}
+/* END 공연장 운영 */
 
 /* END 컨텐츠 영역*/

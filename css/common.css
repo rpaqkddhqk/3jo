@@ -45,7 +45,7 @@ table {width: 100%;}
 /* END 헤더영역 */
 
 /* START 푸터영역 */
-#footer_wrap {border-top: 1px solid #dfdfdf; position: relative; margin-top: 200px;}
+#footer_wrap {border-top: 1px solid #dfdfdf; position: relative;}
 #footer .group_link {width: 1000px; height: 57px; line-height: 57px; margin: 0 auto; position: relative;}
 #footer .group_link li {float: left; margin: 18px 0 0 48px; position: relative;}
 #footer .group_link li:first-child {margin-left: 0;}
