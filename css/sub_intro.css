@@ -26,11 +26,13 @@
 
 /* START 연혁*/
 
-#sub_contents_wrap .content_history{width:764px; background: url(../images/sub/history_bg1.png) 380px 0 repeat-y;}
-#sub_contents_wrap .content_history .history_tab ul{margin-bottom:40px;}
-#sub_contents_wrap .content_history .history_tab ul li{float: left; font-size: 16px; text-align: center; width: 380px; height: 53px; line-height: 53px; color: #333; color: #333; border: 1px solid #ddd;}
-#sub_contents_wrap .content_history .history_tab ul li a{width: 380px; color: #333; display:inline-block;}
-#sub_contents_wrap .content_history .history_tab ul li a.on{width: 380px; background-color: #3c3c42; color: #fff; display:inline-block;}
+#sub_contents_wrap .content_history{width:764px; background: url(../images/sub/history_bg1.png) 380px 0 repeat-y; margin-bottom:40px}
+#sub_contents_wrap .content_history .history_tab{margin-bottom:40px;}
+#sub_contents_wrap .content_history .history_tabli:first:child{border-left:1px solid #ccc; }
+#sub_contents_wrap .content_history .history_tab li{float: left;}
+#sub_contents_wrap .content_history .history_tab li a{ font-size: 16px; text-align: center; width: 380px; height: 53px; line-height: 53px; color: #333; color: #333; border: 1px solid #ddd; display:block; margin-left:-1px;}
+#sub_contents_wrap .content_history .history_tab li a:hover, #sub_contents_wrap .content_history .history_tab li a.on{width: 380px; background-color: #3c3c42; color: #fff;}
+
 #sub_contents_wrap .content_history .history_list_wrap h2{width: 167px; line-height:55px; float: left; font-size:56px; color: #aaa; font-weight: bold; margin-right: 70px;}
 #sub_contents_wrap .content_history .history_list_wrap h2 span{font-size:40px; font-weight: normal;}
 
@@ -105,6 +107,29 @@
 #sub_contents_wrap .content_history .history_list_wrap .list_2000 {float: left;}
 #sub_contents_wrap .content_history .history_list_wrap .list_2000 li{padding-left:10px; background: url(../images/sub/history_bg_dot.png) left 50% no-repeat; height: 84px; line-height: 84px;}
 
-
-
 /*END 연혁*/
+
+/*START  맵*/
+
+#sub_contents_wrap .content_map{width:764px;}
+#sub_contents_wrap .content_map .map_tab a{margin-bottom:40px;}
+#sub_contents_wrap .content_map .map_tab li:first:child{border-left:1px solid #ccc; }
+#sub_contents_wrap .content_map .map_tab li{float: left;}
+#sub_contents_wrap .content_map .map_tab li a{ font-size: 16px; text-align: center; width: 252px; height: 53px; line-height: 53px; color: #333; color: #333; border: 1px solid #ddd; display:block; margin-left:-1px;}
+#sub_contents_wrap .content_map .map_tab li a:hover, #sub_contents_wrap .content_map .map_tab li a.on{width: 252px; background-color: #3c3c42; color: #fff;}
+
+#sub_contents_wrap .content_map .traffic h2{font-size:24px; color:#000;	 margin:40px 0 30px 0;}
+#sub_contents_wrap .content_map .traffic h2 span{font-size: 24px; color: #e03236; font-weight:bold;}
+#sub_contents_wrap .content_map .traffic p{border-bottom:1px solid #e3e3e3;}
+#sub_contents_wrap .content_map .traffic p:first-child{border-bottom:none;}
+#sub_contents_wrap .content_map .traffic h2+p{border-top:2px solid #333; padding-top:20px}
+
+#sub_contents_wrap .content_map .traffic a:hover{text-decoration:underline;}
+#sub_contents_wrap .content_map .traffic .traffic_con p{float:left; line-height:26px;}
+
+#sub_contents_wrap .content_map .traffic .traffic_con p>span{color: #e03236; margin-right:5px;}
+#sub_contents_wrap .content_map .traffic{border-bottom:1px solid #333;	}
+#sub_contents_wrap .content_map .traffic p>strong{font-size: 15px; color:#000; font-weight:bold; display:inline-block; width:70px; padding-left:15px;}
+#sub_contents_wrap .content_map .traffic p{font-size: 15px;	padding:20px 0;}
+
+/*END 맵*/
