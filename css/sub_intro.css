@@ -26,10 +26,9 @@
 
 /* START 연혁 */
 #sub_contents_wrap .content_history{width:764px; background: url(../images/sub/history_bg1.png) 380px 0 repeat-y; padding-bottom:40px}
-#sub_contents_wrap .content_history .history_tabli:first:child{border-left:1px solid #ccc; }
 #sub_contents_wrap .content_history .history_tab li{float: left;}
-#sub_contents_wrap .content_history .history_tab li a{ font-size: 16px; text-align: center; width: 380px; height: 53px; line-height: 53px; color: #333; color: #333; border: 1px solid #ddd; display:block; margin-left:-1px;}
-#sub_contents_wrap .content_history .history_tab li a:hover, #sub_contents_wrap .content_history .history_tab li a.on{width: 380px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42;}
+#sub_contents_wrap .content_history .history_tab li a{font-size: 16px; text-align: center; width: 378px; height: 53px; line-height: 53px; color: #333;  display:block; border:1px solid #ddd;}
+#sub_contents_wrap .content_history .history_tab li a:hover, #sub_contents_wrap .content_history .history_tab li a.on{width: 378px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42;}
 #sub_contents_wrap .content_history .history_list_wrap{position: relative;}
 #sub_contents_wrap .content_history .history_list_wrap h2{position: absolute; left: 0; top: 0; line-height:55px; font-size:56px; color: #aaa; font-weight: bold;}
 #sub_contents_wrap .content_history .history_list_wrap h2 span{font-size:40px; font-weight: normal;}
@@ -55,10 +54,9 @@
 /* START  맵*/
 #sub_contents_wrap .content_map{width:764px;}
 #sub_contents_wrap .content_map .map_tab a{margin-bottom:40px;}
-#sub_contents_wrap .content_map .map_tab li:first:child{border-left:1px solid #ccc; }
 #sub_contents_wrap .content_map .map_tab li{float: left;}
-#sub_contents_wrap .content_map .map_tab li a{ font-size: 16px; text-align: center; width: 252px; height: 53px; line-height: 53px; color: #333; color: #333; border: 1px solid #ddd; display:block; margin-left:-1px;}
-#sub_contents_wrap .content_map .map_tab li a:hover, #sub_contents_wrap .content_map .map_tab li a.on{width: 252px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42;}
+#sub_contents_wrap .content_map .map_tab li a{font-size: 16px; text-align: center; width: 251px; height: 53px; line-height: 53px; color: #333; display:block; border: 1px solid #ddd; margin-left:-1px;}
+#sub_contents_wrap .content_map .map_tab li a:hover, #sub_contents_wrap .content_map .map_tab li a.on{width: 251px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42; border-right: 1px solid #3c3c42;}
 
 #sub_contents_wrap .content_map .traffic h2{font-size:24px; color:#000;	 margin:40px 0 30px 0;}
 #sub_contents_wrap .content_map .traffic h2 span{font-size: 24px; color: #e03236; font-weight:bold;}
