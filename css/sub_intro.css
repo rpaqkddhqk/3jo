@@ -56,12 +56,15 @@
 #sub_contents_wrap .content_map .map_tab a{margin-bottom:40px;}
 #sub_contents_wrap .content_map .map_tab li{float: left;}
 #sub_contents_wrap .content_map .map_tab li a{font-size: 16px; text-align: center; width: 251px; height: 53px; line-height: 53px; color: #333; display:block; border: 1px solid #ddd; margin-left:-1px;}
-#sub_contents_wrap .content_map .map_tab li a:hover, #sub_contents_wrap .content_map .map_tab li a.on{width: 251px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42; border-right: 1px solid #3c3c42;}
+#sub_contents_wrap .content_map .map_tab li a:hover, #sub_contents_wrap .content_map .map_tab li a.on{
+width: 251px; background-color: #3c3c42; color: #fff; border: 1px solid #3c3c42; border-right: 1px solid #3c3c42;}
+
 
 #sub_contents_wrap .content_map .traffic h2{font-size:24px; color:#000;	 margin:40px 0 30px 0;}
 #sub_contents_wrap .content_map .traffic h2 span{font-size: 24px; color: #e03236; font-weight:bold;}
 #sub_contents_wrap .content_map .traffic p{border-bottom:1px solid #e3e3e3;}
 #sub_contents_wrap .content_map .traffic p:first-child{border-bottom:none;}
+#sub_contents_wrap .content_map .traffic div.mapline p{border:1px solid #ccc;}
 #sub_contents_wrap .content_map .traffic h2+p{border-top:2px solid #333; padding-top:20px}
 #sub_contents_wrap .content_map .traffic h2+p{border-top:2px solid #333; padding-top:20px}
 #sub_contents_wrap .content_map .traffic h2+p+p+p+p{border-bottom:none;}
