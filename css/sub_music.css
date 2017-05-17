@@ -53,7 +53,7 @@
 .archive .search_option .form_wrap input[type="image"] {margin-left: 6px;}
 
 .archive .archive_list .title_year {font-size: 28px; text-align: center; font-weight: bold; margin-bottom: 35px;}
-.archive .archive_detail_wrap {margin-bottom: 100px;}
+.archive .archive_detail_wrap {padding-bottom: 50px; margin-bottom: 50px; border-bottom: 2px solid #333;}
 .archive .archive_detail {overflow: hidden; margin-top: 20px;}
 .archive .archive_detail:first-child {margin-top: 0;}
 .archive .archive_detail .profile {float: left;}
@@ -65,12 +65,12 @@
 .archive .archive_detail .profile_desc > div p select {width: 354px; height: 43px; padding-left: 22px; border: 1px solid #e4e4e4; font-size: 14px;}
 .archive .archive_detail .profile_desc > .p_1 {margin-top: 20px;}
 
-.archive .paging {width: 322px; margin: 0 auto;}
+.archive .paging {width: 325px; margin: 0 auto;}
 .archive .paging > a {float: left; margin-left: 3px;}
 .archive .paging > a:first-child {margin-left: 0;}
 .archive .paging ul {float: left; text-align: center; }
 .archive .paging li {float: left; border: 1px solid #ddd; margin-left: 3px;}
-.archive .paging li:first-child {margin-left: 0;}
+/*.archive .paging li:first-child {margin-left: 0;}*/
 .archive .paging li strong, .archive .paging li a {display: block; width: 36px; height: 36px; line-height: 36px; font-weight: bold;}
 .archive .paging li strong, .archive .paging li a:hover, .archive .paging li a:focus {background-color: #2a2a30; color: #fff;}
 /* END 금호 연주자 아카이브 */
