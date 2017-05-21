@@ -38,7 +38,7 @@
 
 .main_contents_1 .show_guide {float: left; width: 215px; height: 303px; padding: 22px 15px; border: 1px solid #e6e6e6; margin-top: 60px;}
 .main_contents_1 .show_guide .calendar {margin-bottom: 18px;}
-.main_contents_1 .show_guide .cal_header {overflow: hidden; height: 25px; line-height: 25px; margin-bottom: 12px;}
+.main_contents_1 .show_guide .cal_header {overflow: hidden; height: 27px; line-height: 27px; margin-bottom: 12px;}
 .main_contents_1 .show_guide .cal_header > p {float: left;}
 .main_contents_1 .show_guide .cal_header > .cal_title {font-size: 16px; font-weight: bold; margin-left: 52px;}
 .main_contents_1 .show_guide .cal_header > .cal_title + p {float: right;}
